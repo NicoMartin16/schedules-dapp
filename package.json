@@ -1,0 +1,16 @@
+{
+  "name": "schedule-dapp",
+  "version": "1.0.0",
+  "description": "monorepo dapp schedule management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Martin",
+  "license": "MIT",
+  "workspaces": [
+    "packages/smart-contracts",
+    "packages/client"
+  ],
+  "private": true
+}
